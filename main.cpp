@@ -14,3 +14,4 @@ int main()
 	prime2 = getPrevPrime(end);
 	cout << "The prime number before " << end << " is " << prime2 << endl;
 }
+///error that i found was getting line 11 to work with my other code
