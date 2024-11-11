@@ -1,12 +1,13 @@
 #include <iostream>
+using namespace std;
 
 void getTwoValues(int& begin, int& end) {
     do {
-        std::cout << "Enter two integer values (begin end): ";
-        std::cin >> begin >> end;
+        cout << "Enter two integer values (begin end): ";
+        cin >> begin >> end;
         
         if (begin >= end) {
-            std::cout << "Error: The first value must be less than the second value. Please try again.\n";
+            cout << "Error: The first value must be less than the second value. Please try again.\n";
         }
     } while (begin >= end);
 }
